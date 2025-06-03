@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.iagami.shopperstack.tests.ShopperStackOrderTest">
+        <methods>
+          <include name="updateTheOrder"/>
+          <include name="getInvoice"/>
+          <include name="getOrderHistory"/>
+          <include name="ordertheProductTest"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackOrderTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackCartTest">
+        <methods>
+          <include name="deleteCart"/>
+          <include name="getAllCart"/>
+          <include name="addToCart"/>
+          <include name="updateTheAddedCart"/>
+        </methods>
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackCartTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackAddressTest">
+        <methods>
+          <include name="addNewAddress"/>
+          <include name="getAllAddress"/>
+        </methods>
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackAddressTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackAProfileTest">
+        <methods>
+          <include name="loginForUser"/>
+          <include name="registerForShopper"/>
+          <include name="getWelcomePageProductView"/>
+          <include name="getHomePageProductView"/>
+          <include name="getShopperDatabyShopperId"/>
+          <include name="updateTheUserDeatils"/>
+        </methods>
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackAProfileTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

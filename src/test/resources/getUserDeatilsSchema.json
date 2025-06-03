@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "statusCode": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "integer"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "password": {
+          "type": "null"
+        },
+        "role": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "token": {
+          "type": "null"
+        },
+        "dob": {
+          "type": "null"
+        },
+        "createdDateTime": {
+          "type": "string"
+        },
+        "zoneId": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "imageId": {
+          "type": "null"
+        },
+        "addressList": {
+          "type": "null"
+        },
+        "cartList": {
+          "type": "null"
+        },
+        "wishList": {
+          "type": "null"
+        },
+        "shopperOrders": {
+          "type": "null"
+        },
+        "likes": {
+          "type": "null"
+        },
+        "jwtToken": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "userId",
+        "firstName",
+        "lastName",
+        "email",
+        "phone",
+        "password",
+        "role",
+        "gender",
+        "status",
+        "token",
+        "dob",
+        "createdDateTime",
+        "zoneId",
+        "city",
+        "state",
+        "country",
+        "imageId",
+        "addressList",
+        "cartList",
+        "wishList",
+        "shopperOrders",
+        "likes",
+        "jwtToken"
+      ]
+    }
+  },
+  "required": [
+    "statusCode",
+    "message",
+    "data"
+  ]
+}

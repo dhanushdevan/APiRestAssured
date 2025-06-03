@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "statusCode": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "createdDateTime": {
+          "type": "null"
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "zoneId": {
+          "type": "string"
+        },
+        "imageId": {
+          "type": "null"
+        },
+        "jwtToken": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "userId",
+        "email",
+        "role",
+        "status",
+        "createdDateTime",
+        "firstName",
+        "lastName",
+        "city",
+        "state",
+        "country",
+        "zoneId",
+        "imageId",
+        "jwtToken"
+      ]
+    }
+  },
+  "required": [
+    "statusCode",
+    "message",
+    "data"
+  ]
+}

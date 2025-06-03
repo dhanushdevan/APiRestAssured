@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-03T11:01:18 IST" name="Default suite" finished-at="2025-06-03T11:01:36 IST" duration-ms="17984">
+    <groups>
+    </groups>
+    <test started-at="2025-06-03T11:01:18 IST" name="Default test" finished-at="2025-06-03T11:01:36 IST" duration-ms="17984">
+      <class name="com.iagami.shopperstack.tests.ShopperStackOrderTest">
+        <test-method signature="addToCart()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackOrderTest@76505305]" started-at="2025-06-03T11:01:31 IST" name="addToCart" finished-at="2025-06-03T11:01:32 IST" depends-on-methods="deleteCart" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="ordertheProductTest()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackOrderTest@76505305]" started-at="2025-06-03T11:01:32 IST" name="ordertheProductTest" finished-at="2025-06-03T11:01:32 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackOrderTest.addToCart" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ordertheProductTest -->
+        <test-method signature="getOrderHistory()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackOrderTest@76505305]" started-at="2025-06-03T11:01:32 IST" name="getOrderHistory" finished-at="2025-06-03T11:01:33 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackOrderTest.ordertheProductTest" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderHistory -->
+        <test-method signature="updateTheOrder()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackOrderTest@76505305]" started-at="2025-06-03T11:01:33 IST" name="updateTheOrder" finished-at="2025-06-03T11:01:34 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackOrderTest.getOrderHistory" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTheOrder -->
+        <test-method signature="getInvoice()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackOrderTest@76505305]" started-at="2025-06-03T11:01:34 IST" name="getInvoice" finished-at="2025-06-03T11:01:34 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackOrderTest.updateTheOrder" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInvoice -->
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackOrderTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackAddressTest">
+        <test-method signature="addNewAddress()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAddressTest@3590fc5b]" started-at="2025-06-03T11:01:27 IST" name="addNewAddress" finished-at="2025-06-03T11:01:28 IST" depends-on-methods="getWelcomePageProductView" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddress -->
+        <test-method signature="getAllAddress()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAddressTest@3590fc5b]" started-at="2025-06-03T11:01:28 IST" name="getAllAddress" finished-at="2025-06-03T11:01:28 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAddressTest.addNewAddress" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllAddress -->
+        <test-method signature="getSingleAddress()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAddressTest@3590fc5b]" started-at="2025-06-03T11:01:28 IST" name="getSingleAddress" finished-at="2025-06-03T11:01:29 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAddressTest.addNewAddress" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleAddress -->
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackAddressTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackAProfileTest">
+        <test-method signature="registerForShopper()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:18 IST" name="registerForShopper" finished-at="2025-06-03T11:01:21 IST" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerForShopper -->
+        <test-method signature="loginForUser()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:21 IST" name="loginForUser" finished-at="2025-06-03T11:01:22 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAProfileTest.registerForShopper" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginForUser -->
+        <test-method signature="getShopperDatabyShopperId()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:22 IST" name="getShopperDatabyShopperId" finished-at="2025-06-03T11:01:23 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAProfileTest.loginForUser" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShopperDatabyShopperId -->
+        <test-method signature="updateTheUserDeatils()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:23 IST" name="updateTheUserDeatils" finished-at="2025-06-03T11:01:23 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAProfileTest.getShopperDatabyShopperId" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTheUserDeatils -->
+        <test-method signature="getHomePageProductView()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:23 IST" name="getHomePageProductView" finished-at="2025-06-03T11:01:25 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAProfileTest.updateTheUserDeatils" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageProductView -->
+        <test-method signature="getWelcomePageProductView()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackAProfileTest@41d477ed]" started-at="2025-06-03T11:01:25 IST" name="getWelcomePageProductView" finished-at="2025-06-03T11:01:27 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackAProfileTest.getHomePageProductView" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWelcomePageProductView -->
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackAProfileTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperstackWishListTest">
+        <test-method signature="addProductToWishList()[pri:0, instance:com.iagami.shopperstack.tests.ShopperstackWishListTest@397fbdb]" started-at="2025-06-03T11:01:34 IST" name="addProductToWishList" finished-at="2025-06-03T11:01:35 IST" depends-on-methods="getInvoice" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+        <test-method signature="getProductToWishList()[pri:0, instance:com.iagami.shopperstack.tests.ShopperstackWishListTest@397fbdb]" started-at="2025-06-03T11:01:35 IST" name="getProductToWishList" finished-at="2025-06-03T11:01:35 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperstackWishListTest.addProductToWishList" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProductToWishList -->
+        <test-method signature="deleteProductToWishList()[pri:0, instance:com.iagami.shopperstack.tests.ShopperstackWishListTest@397fbdb]" started-at="2025-06-03T11:01:35 IST" name="deleteProductToWishList" finished-at="2025-06-03T11:01:36 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperstackWishListTest.getProductToWishList" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProductToWishList -->
+      </class> <!-- com.iagami.shopperstack.tests.ShopperstackWishListTest -->
+      <class name="com.iagami.shopperstack.tests.ShopperStackCartTest">
+        <test-method signature="addToCart()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackCartTest@33d512c1]" started-at="2025-06-03T11:01:29 IST" name="addToCart" finished-at="2025-06-03T11:01:29 IST" depends-on-methods="getAllAddress" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="getAllCart()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackCartTest@33d512c1]" started-at="2025-06-03T11:01:29 IST" name="getAllCart" finished-at="2025-06-03T11:01:30 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackCartTest.addToCart" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCart -->
+        <test-method signature="updateTheAddedCart()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackCartTest@33d512c1]" started-at="2025-06-03T11:01:30 IST" name="updateTheAddedCart" finished-at="2025-06-03T11:01:31 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackCartTest.getAllCart" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTheAddedCart -->
+        <test-method signature="deleteCart()[pri:0, instance:com.iagami.shopperstack.tests.ShopperStackCartTest@33d512c1]" started-at="2025-06-03T11:01:31 IST" name="deleteCart" finished-at="2025-06-03T11:01:31 IST" depends-on-methods="com.iagami.shopperstack.tests.ShopperStackCartTest.updateTheAddedCart" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCart -->
+      </class> <!-- com.iagami.shopperstack.tests.ShopperStackCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
